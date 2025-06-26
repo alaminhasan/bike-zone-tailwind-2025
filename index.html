@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Zone Tailwind</title>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <header class=" max-w-5xl mx-auto">
+        <!-- menubar -->
+        <div class="max-w-5xl mx-auto py-10 flex justify-between items-center">
+            <h2 class="font-bold text-4xl">Bike Dekho</h2>
+            <ul class="flex space-x-5 items-center font-semibold">
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+                <button class="py-4 px-12 bg-[#E76F51] text-white rounded-md font-bold"><a href="">Login</a></button>
+            </ul>
+        </div>
+
+
+        <!-- Carousol Daisy ui -->
+
+        <div class="carousel w-full bg-[#E76F511A] py-10">
+
+            <div id="slide1" class="carousel-item relative w-full">
+                <!-- left text part -->
+                <div class="p-20">
+                    <div class="flex gap-10">
+                        <!-- left text -->
+                        <div class=" flex flex-1">
+                            <div class="space-y-5">
+                                <h1 class="text-6xl font-extrabold">Ride-on R15 V4 with Smile</h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat
+                                    duis enim velit mollit.</p>
+                                <button class="py-4 px-12 bg-[#E76F51] text-white rounded-md font-bold"><a
+                                        href="">Purchase</a></button>
+                            </div>
+                        </div>
+                        <!-- right image -->
+                        <div class="flex-1"><img src="images/slider/bike1.png" class="w-full outline-dashed outline-gray-300" /></div>
+                    </div>
+                </div>
+                
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+            <div id="slide2" class="carousel-item relative w-full">
+                <!-- left text part -->
+                <div class="p-20">
+                    <div class="flex gap-10">
+                        <!-- left text -->
+                        <div class=" flex flex-1">
+                            <div class="space-y-5">
+                                <h1 class="text-6xl font-extrabold">Ride-on R15 V4 with Smile</h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat
+                                    duis enim velit mollit.</p>
+                                <button class="py-4 px-12 bg-[#E76F51] text-white rounded-md font-bold"><a
+                                        href="">Purchase</a></button>
+                            </div>
+                        </div>
+                        <!-- right image -->
+                        <div class="flex-1"><img src="images/slider/bike2.png" class="w-full outline-dashed outline-gray-300" /></div>
+                    </div>
+                </div>
+                
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+            <div id="slide3" class="carousel-item relative w-full">
+                <!-- left text part -->
+                <div class="p-20">
+                    <div class="flex gap-10">
+                        <!-- left text -->
+                        <div class=" flex flex-1">
+                            <div class="space-y-5">
+                                <h1 class="text-6xl font-extrabold">Ride-on R15 V4 with Smile</h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat
+                                    duis enim velit mollit.</p>
+                                <button class="py-4 px-12 bg-[#E76F51] text-white rounded-md font-bold"><a
+                                        href="">Purchase</a></button>
+                            </div>
+                        </div>
+                        <!-- right image -->
+                        <div class="flex-1"><img src="images/slider/bike3.png" class="w-full outline-dashed outline-gray-300" /></div>
+                    </div>
+                </div>
+                
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+            <div id="slide4" class="carousel-item relative w-full">
+                <!-- left text part -->
+                <div class="p-20">
+                    <div class="flex gap-10">
+                        <!-- left text -->
+                        <div class=" flex flex-1">
+                            <div class="space-y-5">
+                                <h1 class="text-6xl font-extrabold">Ride-on R15 V4 with Smile</h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat
+                                    duis enim velit mollit.</p>
+                                <button class="py-4 px-12 bg-[#E76F51] text-white rounded-md font-bold"><a
+                                        href="">Purchase</a></button>
+                            </div>
+                        </div>
+                        <!-- right image -->
+                        <div class="flex-1"><img src="images/slider/bike4.png" class="w-full outline-dashed outline-gray-300" /></div>
+                    </div>
+                </div>
+                
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+            
+        </div>
+
+
+
+
+
+    </header>
+</body>
+
+</html>
